@@ -1,0 +1,44 @@
+#main-div{
+  /* border: 2px solid black; */
+  text-align: center;
+  margin: 105px 404px;
+  height: 481px;
+}
+#heading{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+}
+#input,#date{
+  width: 172px;
+  padding: 13px;
+  border-radius: 6px;
+  font-size: 15px;
+  margin-right: 10px;
+}
+#add-btn{
+  width: 100px;
+  padding: 15px;
+  border-radius: 11px;
+  cursor: pointer;
+  background-color: green;
+  border: none;
+  color: white;
+  font-size: larger;
+}
+#displayTodo{
+  display: grid;
+  grid-template-columns: 300px 222px 104px;
+  row-gap: 16px;
+  margin-top: 16px;
+  align-items: center;
+}
+.Display-btn{
+  width: 100px;
+  padding: 15px;
+  border-radius: 11px;
+  cursor: pointer;
+  background-color: rgb(84, 6, 6);
+  border: none;
+  color: white;
+  font-size: larger;
+}
